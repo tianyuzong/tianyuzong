@@ -27,7 +27,7 @@
 
 I am a Ph.D. candidate in Computer Application Technology at the **University of Chinese Academy of Sciences (UCAS)** (expected graduation: June 2027), advised by Prof. [Jungang Xu](https://people.ucas.edu.cn/~xujg), and a recipient of the **2026 National Scholarship for Doctoral Students**.
 
-My research centers on **multimodal representation learning**, **unsupervised contrastive learning**, and **vision-language models**, extending to **3D vision / world models** and **embodied AI**. I have published **4 first-author papers** across **ACL**, **AAAI** (including an **AAAI 2025 Oral**, top 4.6%), and **Neural Networks**, alongside industry research experience at **PsiBot**, **ShengShu Technology**, **Alibaba Amap**, and **Qiwu Technology**.
+My research centers on **multimodal representation learning**, **unsupervised contrastive learning**, and **vision-language models**, extending to **3D vision / world models** and **embodied AI**. I have published **8 peer-reviewed papers** (including **4 first-author papers** at **ACL 2026 Main**, **AAAI 2025 Oral**, **AAAI 2023**, and **Neural Networks**, plus co-authored papers at **ACL 2026**, **AAAI 2026**, and **ICASSP 2026**), alongside industry research experience at **PsiBot**, **ShengShu Technology**, **Alibaba Amap**, and **Qiwu Technology**.
 
 - 🔬 **Research Focus**: Multimodal Retrieval & Representation Learning · Contrastive & Self-Supervised Learning · Feed-Forward Relightable 3DGS & World Models · Embodied AI & VLA Models
 - 💼 **Currently**: Pre-training Algorithm Intern @ **PsiBot (灵初智能)**, working on robotic manipulation keyframe mining and multimodal temporal localization
@@ -35,25 +35,29 @@ My research centers on **multimodal representation learning**, **unsupervised co
 
 ---
 
-### 📝 Selected First-Author Publications
+### 📝 Publications
+
+#### First-Author Publications
 
 | Venue | Paper & Highlights | Links |
 | :--- | :--- | :--- |
 | ![ACL 2026 Main](https://img.shields.io/badge/ACL_2026-Main-B31B1B?style=flat-square) | **L2Dir: Integrating L₂-Norm and Directional Alignment for Unsupervised Contrastive Representation Learning in Multimodal Retrieval**<br/><sub>Joint L₂-norm and directional alignment via a lightweight MLP on frozen backbones (Qwen2-VL, GME, CLIP); consistent gains across 95 tasks (81 MMEB-V2 + 14 M-BEIR), improving CLIP-L M-BEIR Recall@10 from 44.8% → 48.4% (+3.6 pts).</sub> | [Paper](https://aclanthology.org/2026.acl-long.1604/) · [Code](https://github.com/tianyuzong/L2Dir_ACL2026) |
-| ![AAAI 2025 Oral](https://img.shields.io/badge/AAAI_2025-Oral_(Top_4.6%25)-2563EB?style=flat-square) | **TNCSE: Tensor's Norm Constraints for Unsupervised Contrastive Learning of Sentence Embeddings**<br/><sub>Explicit tensor-norm constraints with ensemble distillation; achieves 80.60 avg Spearman on 7 STS benchmarks (+4.35 over SimCSE-BERT-base) and strong zero-shot generalization across ~100 tasks.</sub> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/34816) · [Code](https://github.com/tianyuzong/TNCSE) · [Models](https://huggingface.co/UCASzty) |
-| ![Neural Networks](https://img.shields.io/badge/Neural_Networks-Accepted-059669?style=flat-square) | **JTCSE: Joint Tensor-Modulus Constraints and Cross-Attention for Unsupervised Contrastive Learning of Sentence Embeddings**<br/><sub>Cross-attention and `[CLS]` energy weighting to mitigate attention sink; +2.81 MAP@10 over SimCSE on 50 MTEB zero-shot retrieval tasks, evaluated across 140+ MTEB benchmarks.</sub> | [arXiv](https://arxiv.org/abs/2505.02366) · [Code](https://github.com/tianyuzong/JTCSE) · [Models](https://huggingface.co/UCASzty) |
+| ![Neural Networks](https://img.shields.io/badge/Neural_Networks-2027-059669?style=flat-square) | **JTCSE: Joint Tensor-Modulus Constraints and Cross-Attention for Unsupervised Contrastive Learning of Sentence Embeddings**<br/><sub>Cross-attention and `[CLS]` energy weighting to mitigate attention sink; +2.81 MAP@10 over SimCSE on 50 MTEB zero-shot retrieval tasks, evaluated across 140+ MTEB benchmarks.</sub> | [Paper](https://doi.org/10.1016/j.neunet.2026.109724) · [arXiv](https://arxiv.org/abs/2505.02366) · [Code](https://github.com/tianyuzong/JTCSE) · [Models](https://huggingface.co/UCASzty) |
+| ![AAAI 2025 Oral](https://img.shields.io/badge/AAAI_2025-Oral_(Top_4.6%25)-2563EB?style=flat-square) | **TNCSE: Tensor's Norm Constraints for Unsupervised Contrastive Learning of Sentence Embeddings**<br/><sub>Explicit tensor-norm constraints with ensemble distillation; achieves 80.60 avg Spearman on 7 STS benchmarks (+4.35 over SimCSE-BERT-base) and strong zero-shot generalization across ~100 tasks.</sub> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/34816) · [arXiv](https://arxiv.org/abs/2503.12739) · [Code](https://github.com/tianyuzong/TNCSE) · [Models](https://huggingface.co/UCASzty) |
 | ![AAAI 2023](https://img.shields.io/badge/AAAI_2023-Poster-4F46E5?style=flat-square) | **An Ensemble Distillation Framework for Sentence Embeddings with Multilingual Round-Trip Translation**<br/><sub>Compresses diverse round-trip-translated teachers into a single BERT-base student; 79.27 avg Spearman on 7 STS benchmarks (+3.02 over SimCSE-BERT-base) with zero extra inference overhead.</sub> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26647) |
 
-<details>
-<summary><b>Co-Authored Publications &amp; Manuscripts</b></summary>
-<br/>
+#### Co-Authored Publications & Preprints
 
-- **FAIRGAMER: Evaluating Social Biases in LLM-Based Video Game NPCs** — *ACL 2026 Main* (CCF-A) · [Paper](https://aclanthology.org/2026.acl-long.2015/)
-- **LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics** — *ACL 2026 Findings* · [Paper](https://aclanthology.org/2026.findings-acl.1636/)
-- **Dynamic Deep Graph Learning for Incomplete Multi-View Clustering with Masked Graph Reconstruction Loss** — *AAAI 2026* (CCF-A) · [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/40091)
-- **Delta-JEPA: Transition-Geometry Regularization for Action-Sensitive World Models** — *Under Review* (+6.10% avg planning success rate over DINO-WM across Push-T, Reacher, OGB-Cube, and Two-Room)
-
-</details>
+| Venue | Paper | Links |
+| :--- | :--- | :--- |
+| ![ACL 2026 Main](https://img.shields.io/badge/ACL_2026-Main-B31B1B?style=flat-square) | **FAIRGAMER: Evaluating Social Biases in LLM-Based Video Game NPCs**<br/><sub>Bingkang Shi, Jen-tse Huang, Luo Long, **Tianyu Zong**, Hongzhu Yi, Yuanxiang Wang, Songlin Hu, Xiaodan Zhang, Zhongjiang Yao</sub> | [Paper](https://aclanthology.org/2026.acl-long.2015/) · [arXiv](https://arxiv.org/abs/2508.17825) · [Code](https://github.com/BingkangShi/FairGamer) |
+| ![ACL 2026 Findings](https://img.shields.io/badge/ACL_2026-Findings-9333EA?style=flat-square) | **LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics**<br/><sub>Yueyang Ding, HaoPeng Zhang, Rui Dai, Yi Wang, **Tianyu Zong**, Kaikui Liu, Xiangxiang Chu</sub> | [Paper](https://aclanthology.org/2026.findings-acl.1636/) · [arXiv](https://arxiv.org/abs/2604.17295) |
+| ![AAAI 2026](https://img.shields.io/badge/AAAI_2026-Main-2563EB?style=flat-square) | **Dynamic Deep Graph Learning for Incomplete Multi-View Clustering with Masked Graph Reconstruction Loss**<br/><sub>Zhenghao Zhang, Jun Xie, Xingchen Chen, Tao Yu, Hongzhu Yi, Kaixin Xu, Yuanxiang Wang, **Tianyu Zong**, et al., Jungang Xu</sub> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/40091) · [arXiv](https://arxiv.org/abs/2511.11181) |
+| ![ICASSP 2026](https://img.shields.io/badge/ICASSP_2026-CCF--B-0284C7?style=flat-square) | **Graph-Guided Contrastive Learning for Incomplete Multi-View Clustering with Consistent Global Graph**<br/><sub>Zhepeng Wang, Zhenghao Zhang, **Tianyu Zong**, Feng Chen, Jun Xie</sub> | [Paper](https://doi.org/10.1109/icassp55912.2026.11461858) |
+| ![arXiv 2026](https://img.shields.io/badge/arXiv-2026.10-64748B?style=flat-square) | **Can One Hear Geometry? Gauge-Invariant Spectral Descriptors for Text-to-B-rep Retrieval**<br/><sub>Hongzhu Yi, Hao Liu, Tao Yu, Tiankun Yang, Yujia Yang, Zhenghao Zhang, **Tianyu Zong**, et al., Jungang Xu</sub> | [arXiv](https://arxiv.org/abs/2610.33484) |
+| ![arXiv 2026](https://img.shields.io/badge/arXiv-2026.06-64748B?style=flat-square) | **Delta-JEPA: Learning Action-Sensitive World Models via Latent Difference Decoding**<br/><sub>Zhenghao Zhang, Yuanxiang Wang, Zhenyu Guan, Yujia Yang, Bingkang Shi, **Tianyu Zong**, et al., Jungang Xu</sub> | [arXiv](https://arxiv.org/abs/2606.31232) |
+| ![arXiv 2026](https://img.shields.io/badge/arXiv-2026.02-64748B?style=flat-square) | **VDE Bench: Evaluating The Capability of Image Editing Models to Modify Visual Documents**<br/><sub>Hongzhu Yi, Yujia Yang, Yuanxiang Wang, Tong Li, Zhenyu Guan, **Tianyu Zong**, et al., Jungang Xu</sub> | [arXiv](https://arxiv.org/abs/2602.00122) |
+| ![arXiv 2026](https://img.shields.io/badge/arXiv-2026.01-64748B?style=flat-square) | **RPO: Reinforcement Fine-Tuning with Partial Reasoning Optimization**<br/><sub>Hongzhu Yi, Xinming Wang, Zhenghao Zhang, **Tianyu Zong**, Yuanxiang Wang, et al., Jungang Xu</sub> | [arXiv](https://arxiv.org/abs/2601.19404) · [Code](https://github.com/yhz5613813/RPO) |
 
 ---
 
